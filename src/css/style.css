@@ -273,26 +273,18 @@ input[type="radio"].visually-hidden,
   }
 
   .article__share-popup {
-    position: absolute;
     top: -24px;
     right: -108px;
     left: auto;
 
-    display: flex;
-    align-items: center;
     width: auto;
     padding-top: 18px;
     padding-right: 36px;
     padding-bottom: 18px;
     padding-left: 36px;
 
-    background-color: var(--very-dark-grayish-blue);
     border-radius: 10px;
     transform: translateY(-100%);
-  }
-
-  .article__share-popup--hide {
-    display: none;
   }
 
 
@@ -306,33 +298,6 @@ input[type="radio"].visually-hidden,
     border-right: 12px solid transparent;
     border-left: 12px solid transparent;
     transform: translateX(-50%);
-  }
-
-  .article__share-title {
-    margin: 0;
-    margin-right: 20px;
-
-    font-size: 12px;
-    line-height: 18px;
-    color: var(--grayish-blue);
-    text-transform: uppercase;
-    letter-spacing: 0.475em;
-  }
-
-  .article__social-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
-  }
-
-  .article__social-item {
-    margin-right: 16px;
-  }
-
-  .article__social-item:last-child {
-    margin-right: 0;
   }
 }
 
